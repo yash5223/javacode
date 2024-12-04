@@ -1,0 +1,19 @@
+package class1;
+
+class Class_1 {
+    void show() {
+        System.out.println("Showing Properties of Class 1");
+    }
+}
+
+public class class2 extends Class_1 {
+    void show() {
+        super.show();
+        System.out.println("Showing Properties of Class 2");
+    }
+
+    public static void main(String[] args) {
+        class2 object2 = new class2();
+        object2.show();
+    }
+}
