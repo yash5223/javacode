@@ -1,0 +1,11 @@
+package class1;
+import java.util.Scanner;
+public class class2 {
+	public static void main(String[] args)
+	{
+		Scanner obj = new Scanner(System.in);//Initializing object to scanner class
+		System.out.println("Enter the value for variable a");
+		Integer a=obj.nextInt();//Taking input at next line from the terminal 
+		System.out.println(a);//Printing the variable value
+    }
+}
