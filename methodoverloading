@@ -1,0 +1,18 @@
+package class1;
+import java.util.Scanner;
+public class class2 {
+	public void add(int a,int b)
+	{
+		System.out.println(a+b);
+	}
+	public void add(Float a,Float b)
+	{
+		System.out.println(a+b);
+	}
+	public static void main(String[] args)
+	{
+		class2 obj=new class2();
+		obj.add(3,4);
+		obj.add(3F,5f);
+	}
+}
