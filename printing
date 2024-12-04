@@ -1,0 +1,14 @@
+package javacodes;
+
+public class Class_name {
+	void print()
+	{
+		System.out.println("This is upper Class");
+	}
+	public static void main(String[] args)
+	{
+		Class_name object1=new Class_name();//Initializing object for class
+		System.out.println("Hello world");//Printing Hello world 
+		object1.print();//calling print function
+    }
+}
