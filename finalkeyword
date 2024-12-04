@@ -1,0 +1,9 @@
+package class1;
+
+public class class2 {
+	public static void main(String[] args)
+	{
+		final Integer ano=50;//final keyword is used to keep value for variable  constant. It means once value is assigned to variable then it can not be changed
+		System.out.println(ano);
+    }
+}
