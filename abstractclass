@@ -1,0 +1,18 @@
+abstract class Car {
+    abstract void fueltype();
+    void color() {
+        System.out.println("The color of the car is red.");
+    }
+}
+
+class Tata extends Car {
+    @Override
+    void fueltype() {
+        System.out.println("The fuel type of the car is diesel.");
+    }
+    public static void main(String[] args) {
+        Tata myTata = new Tata();
+        myTata.fueltype();
+        myTata.color();
+    }
+}
