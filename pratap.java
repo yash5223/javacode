@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+interface client {
+    void input();
+    void output();
+}
+class pratap implements client {
+    private String sname;
+    public static void main(String[] args) {
+        pratap myobj = new pratap();
+        myobj.input();
+        myobj.output();
+    }
+    public void input() {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the name ");
+        sname = sc.nextLine();
+        sc.close();
+    }
+    public void output() {
+        System.out.println("The name = " + sname);
+    }
+}

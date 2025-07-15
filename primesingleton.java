@@ -1,6 +1,3 @@
-package keystone;
-
-
 public class primesingleton {
 	private static primesingleton p=null;
 	private primesingleton(){
@@ -13,13 +10,5 @@ public class primesingleton {
 		else {
 			System.out.println("object already exist");
 		}
-	}
-}
-
-class count
-{
-	count()
-	{
-		primesingleton.m1();
 	}
 }

@@ -1,6 +1,12 @@
-package keystone;
-
 import java.util.Scanner;
+
+interface BankDetails {
+    int ID = 1230;
+    String PSWD = "BankofAmerica";
+    void deposit(double amount);   
+    void withdraw(double amount);
+    void displayDetails();
+}
 
 public class Bank implements BankDetails {
     private double balance;
@@ -35,7 +41,7 @@ public class Bank implements BankDetails {
     }
 
     public static void main(String[] args) {
-        BankDetails bank = new Bank();
+        Bank bank = new Bank();
         Scanner sc = new Scanner(System.in);
         int choice;
         do {
